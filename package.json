@@ -1,0 +1,22 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "01": "npx tsx src/01-primitives-and-types.ts",
+    "02": "npx tsx src/02-functions-and-generics.ts",
+    "03": "npx tsx src/03-loops-and-iteration.ts",
+    "04": "npx tsx src/04-async-and-promises.ts",
+    "05": "npx tsx src/05-classes-and-oop.ts",
+    "06": "npx tsx src/06-advanced-types.ts",
+    "07": "npx tsx src/07-error-handling.ts",
+    "08": "npx tsx src/08-modules-and-patterns.ts",
+    "all": "npx tsx src/01-primitives-and-types.ts && npx tsx src/02-functions-and-generics.ts && npx tsx src/03-loops-and-iteration.ts && npx tsx src/04-async-and-promises.ts && npx tsx src/05-classes-and-oop.ts && npx tsx src/06-advanced-types.ts && npx tsx src/07-error-handling.ts && npx tsx src/08-modules-and-patterns.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.5.0"
+  }
+}

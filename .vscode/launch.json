@@ -1,0 +1,86 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Current TS File",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "${file}"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "01 - Primitives & Types",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/01-primitives-and-types.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "02 - Functions & Generics",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/02-functions-and-generics.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "03 - Loops & Iteration",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/03-loops-and-iteration.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "04 - Async & Promises",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/04-async-and-promises.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "05 - Classes & OOP",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/05-classes-and-oop.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "06 - Advanced Types",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/06-advanced-types.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "07 - Error Handling",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/07-error-handling.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "08 - Modules & Patterns",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["tsx", "src/08-modules-and-patterns.ts"],
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}
